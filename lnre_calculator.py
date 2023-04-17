@@ -46,6 +46,7 @@ def main(args: argparse.ArgumentParser) -> None:
                 V2 += 1
     # Computes basic stats.
     freqs = freqdict.values()
+    #print(freqs)
     N = sum(freqs)
     V = len(freqs)
     print(f"N:\t{N:,}")
